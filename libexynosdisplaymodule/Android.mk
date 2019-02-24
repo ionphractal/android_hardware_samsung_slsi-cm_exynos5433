@@ -34,6 +34,8 @@ LOCAL_C_INCLUDES := \
 	$(TOP)/frameworks/native/libs/nativebase/include \
 	$(TOP)/frameworks/native/libs/nativewindow/include
 
+LOCAL_CFLAGS += -Wno-unused-function
+
 LOCAL_ADDITIONAL_DEPENDENCIES += \
 	$(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
